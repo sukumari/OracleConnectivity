@@ -1,4 +1,4 @@
-// oracle_test.cpp : Defines the entry point for the console application.
+// TestOracleConnectionWithOCI.cpp : Defines the entry point for the console application.
 //
 /*
 
