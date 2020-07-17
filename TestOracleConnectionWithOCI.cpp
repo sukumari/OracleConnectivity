@@ -35,7 +35,7 @@ void stopTimer(clock_t start = START_TIMER)
 
 void createOracleConnection(SAConnection& con)
 {
-    string url ="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.248.139.221)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orcl.tripwirelab.com)))";
+    string url ="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.xxx.xxx.xxx)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=xyz)))";
     con.setOption("UseApi") = "OCI8";
     con.Connect(url.c_str(), "scott", "tiger", SA_Oracle_Client);
     if(con.isConnected()) {
