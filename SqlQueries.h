@@ -1,3 +1,5 @@
+/* This file contains view metadata related sql queries */
+
 #include <string>
 #include <vector>
 
