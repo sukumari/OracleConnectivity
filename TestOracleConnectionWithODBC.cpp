@@ -35,7 +35,7 @@ void stopTimer(clock_t start = START_TIMER)
 
 void createOracleConnection(SAConnection& con)
 {
-    string url ="Driver={Oracle in OraDB18Home1};dbq=10.248.139.221:1521/orcl.tripwirelab.com";
+    string url ="Driver={Oracle in OraDB18Home1};dbq=10.xxx.xxx.xxx:1521/service_name";
     //con.setOption("ODBC.LIBS") = "odbc32.dll";
     con.Connect(url.c_str(), "scott", "tiger", SA_ODBC_Client);
     if(con.isConnected()) {
